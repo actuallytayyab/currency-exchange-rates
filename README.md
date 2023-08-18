@@ -1,5 +1,5 @@
 # Currency Exchange Rates
-This API fetches everyday exchange rates and is stored in a dynamo DB. 
+This Currency Exchange Tracking Application fetches everyday exchange rates and is stored in a dynamo DB. 
 # Lambda Function (ExchangeRatesLambdaFunction)
 The lambda function fetches everyday exchange rates and store them in a database, and also exposes a public REST API endpoint that provides current exchange rates information for all tracked currencies and their change compared to the previous day for all the tracked currencies.
 
